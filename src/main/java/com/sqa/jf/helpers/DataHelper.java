@@ -408,10 +408,9 @@ public class DataHelper {
 				System.out.println("");
 			}
 			newExcelFormatFile.close();
-			// FileOutputStream out = new FileOutputStream(new
-			// File("src/main/resources/excel-output.xlsx"));
-			// workbook.write(out);
-			// out.close();
+			FileOutputStream out = new FileOutputStream(new File("src/main/resources/excel-output.xlsx"));
+			workbook.write(out);
+			out.close();
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
