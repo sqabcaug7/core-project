@@ -14,6 +14,7 @@ import org.openqa.selenium.remote.*;
 import org.testng.annotations.*;
 
 import com.sqa.jf.auto.enums.*;
+import com.sqa.jf.auto.exceptions.*;
 import com.sqa.jf.helpers.*;
 
 /**

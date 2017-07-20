@@ -8,7 +8,7 @@
  *   
  */
 
-package com.sqa.jf.auto;
+package com.sqa.jf.auto.exceptions;
 
 
 /**
